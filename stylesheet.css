@@ -1,17 +1,36 @@
 @charset "UTF-8";
 
-
 *{
 	fontName: "Segoe UI";
 	fillColor: #C3D7DD;
 	transparency: 0;
-	gradient: #FFFFFFvertical;
-	lineColor: #000000}
-
-
-.modelElement{
+	gradient: #FFFFFF vertical;
+	lineColor: #000000;
 }
 
+
+*.modelElement {
+	elementIcon: true;
+}
+	
+	
 *.view {
-	bold: true}.connector{
+	bold: true;
 }
+	
+*.connector{
+	 fillColor: #E4B3E5;
+}
+
+
+*.noncore {
+	  fontColor: #808080;
+	lineColor: #C0C0C0;
+}
+
+Class.noncore {
+	 fillColor: #C0C0C0;
+}
+
+	
+*.core{}
