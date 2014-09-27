@@ -4,8 +4,8 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_RsHu0EYgEeSzs-C5IXKTbw" name="01 Requirements">
       <packagedElement xmi:type="uml:Class" xmi:id="_BOV98EWVEeSzs-C5IXKTbw" name="GlossaryEntry">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_F2DbwEZMEeSM9YCiGGHKWg" name="modelElement" type="_YJnvMEZLEeSM9YCiGGHKWg" association="_F2Ep4EZMEeSM9YCiGGHKWg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F2DbwUZMEeSM9YCiGGHKWg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F2DbwkZMEeSM9YCiGGHKWg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F2DbwUZMEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F2DbwkZMEeSM9YCiGGHKWg" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Efio8EWVEeSzs-C5IXKTbw" name="Request">
@@ -314,10 +314,10 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_elL8I0WVEeSzs-C5IXKTbw" value="*"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_F2Ep4EZMEeSM9YCiGGHKWg" name="A_glossaryEntry_modelElement_1" memberEnd="_F2Ep4UZMEeSM9YCiGGHKWg _F2DbwEZMEeSM9YCiGGHKWg">
+      <packagedElement xmi:type="uml:Association" xmi:id="_F2Ep4EZMEeSM9YCiGGHKWg" name="A_glossaryEntry_modelElement_1" memberEnd="_F2Ep4UZMEeSM9YCiGGHKWg _F2DbwEZMEeSM9YCiGGHKWg" navigableOwnedEnd="_F2Ep4UZMEeSM9YCiGGHKWg">
         <ownedEnd xmi:type="uml:Property" xmi:id="_F2Ep4UZMEeSM9YCiGGHKWg" name="glossaryEntry" type="_BOV98EWVEeSzs-C5IXKTbw" association="_F2Ep4EZMEeSM9YCiGGHKWg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F2Ep4kZMEeSM9YCiGGHKWg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F2Ep40ZMEeSM9YCiGGHKWg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F2Ep4kZMEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F2Ep40ZMEeSM9YCiGGHKWg" value="*"/>
         </ownedEnd>
       </packagedElement>
     </packagedElement>
@@ -639,8 +639,8 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_tCwIwEYgEeSzs-C5IXKTbw" name="04 Validation">
       <packagedElement xmi:type="uml:Class" xmi:id="_8lTikEYeEeSzs-C5IXKTbw" name="ArchitecturalDecisionsDocument">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_CPIR0EYfEeSzs-C5IXKTbw" name="architecturalDecision" type="_5rLTwEYeEeSzs-C5IXKTbw" aggregation="shared" association="_CPIR00YfEeSzs-C5IXKTbw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CPIR0UYfEeSzs-C5IXKTbw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CPIR0kYfEeSzs-C5IXKTbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CPIR0UYfEeSzs-C5IXKTbw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CPIR0kYfEeSzs-C5IXKTbw" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_5rLTwEYeEeSzs-C5IXKTbw" name="ArchitecturalDecision">
@@ -648,24 +648,38 @@
           <body>Can refer to any ModelElement or Connector</body>
         </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Rxf6EEZMEeSM9YCiGGHKWg" name="modelElement" type="_YJnvMEZLEeSM9YCiGGHKWg" association="_RxghIEZMEeSM9YCiGGHKWg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Rxf6EUZMEeSM9YCiGGHKWg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Rxf6EkZMEeSM9YCiGGHKWg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Rxf6EUZMEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Rxf6EkZMEeSM9YCiGGHKWg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_FV9UgEZOEeSM9YCiGGHKWg" name="connector" type="_gxRPkEZNEeSM9YCiGGHKWg" association="_FV97kEZOEeSM9YCiGGHKWg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FV9UgUZOEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FV9UgkZOEeSM9YCiGGHKWg" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_CPIR00YfEeSzs-C5IXKTbw" name="A_architecturalDecisionsDocument_architecturalDecision_1" memberEnd="_CPIR1EYfEeSzs-C5IXKTbw _CPIR0EYfEeSzs-C5IXKTbw">
         <ownedEnd xmi:type="uml:Property" xmi:id="_CPIR1EYfEeSzs-C5IXKTbw" name="architecturalDecisionsDocument" type="_8lTikEYeEeSzs-C5IXKTbw" association="_CPIR00YfEeSzs-C5IXKTbw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CPIR1UYfEeSzs-C5IXKTbw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CPIR1kYfEeSzs-C5IXKTbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CPIR1UYfEeSzs-C5IXKTbw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CPIR1kYfEeSzs-C5IXKTbw" value="*"/>
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_RxghIEZMEeSM9YCiGGHKWg" name="A_architecturalDecision_modelElement_1" memberEnd="_RxghIUZMEeSM9YCiGGHKWg _Rxf6EEZMEeSM9YCiGGHKWg" navigableOwnedEnd="_RxghIUZMEeSM9YCiGGHKWg">
         <ownedEnd xmi:type="uml:Property" xmi:id="_RxghIUZMEeSM9YCiGGHKWg" name="architecturalDecision" type="_5rLTwEYeEeSzs-C5IXKTbw" association="_RxghIEZMEeSM9YCiGGHKWg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RxghIkZMEeSM9YCiGGHKWg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RxghI0ZMEeSM9YCiGGHKWg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RxghIkZMEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RxghI0ZMEeSM9YCiGGHKWg" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FV97kEZOEeSM9YCiGGHKWg" name="A_architecturalDecision_connector_1" memberEnd="_FV97kUZOEeSM9YCiGGHKWg _FV9UgEZOEeSM9YCiGGHKWg" navigableOwnedEnd="_FV97kUZOEeSM9YCiGGHKWg">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_FV97kUZOEeSM9YCiGGHKWg" name="architecturalDecision" type="_5rLTwEYeEeSzs-C5IXKTbw" association="_FV97kEZOEeSM9YCiGGHKWg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FV97kkZOEeSM9YCiGGHKWg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FV97k0ZOEeSM9YCiGGHKWg" value="*"/>
         </ownedEnd>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_YJnvMEZLEeSM9YCiGGHKWg" name="ModelElement"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kTojEEZNEeSM9YCiGGHKWg" name="00 Meta">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gxRPkEZNEeSM9YCiGGHKWg" name="Connector"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YJnvMEZLEeSM9YCiGGHKWg" name="ModelElement"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RpDd0EZOEeSM9YCiGGHKWg" name="View"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EilAwEWTEeSzs-C5IXKTbw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ei37sEWTEeSzs-C5IXKTbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="model.profile.uml#_axRbEEWUEeSzs-C5IXKTbw"/>
