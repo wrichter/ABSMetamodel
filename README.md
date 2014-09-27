@@ -1,7 +1,7 @@
 ABSMetamodel
 ============
 
-Meta Model for Architecture for Business Systems
+Meta Model for Architecture for Business Systems Lecture
 
 
 How To Install
