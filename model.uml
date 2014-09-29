@@ -89,8 +89,6 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_4OLeoEWMEeSVTJKNg9WDtw" name="InformationFlow">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="__oOOUEWMEeSVTJKNg9WDtw" name="protocol"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_R_dEUEWNEeSVTJKNg9WDtw" name="DataItem"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_aZlYAEWNEeSVTJKNg9WDtw" name="system" type="_gxdVgEWMEeSVTJKNg9WDtw" association="_aZlYA0WNEeSVTJKNg9WDtw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZlYAUWNEeSVTJKNg9WDtw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZlYAkWNEeSVTJKNg9WDtw" value="1"/>
@@ -102,6 +100,10 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_CLgYgEWPEeSVTJKNg9WDtw" name="connection" type="_jyr_8EWOEeSVTJKNg9WDtw" aggregation="shared" association="_CLg_kEWPEeSVTJKNg9WDtw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CLgYgUWPEeSVTJKNg9WDtw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CLgYgkWPEeSVTJKNg9WDtw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_210hAEevEeSGi8oYaOp2qg" name="businessEntity" type="_fqe8kEYfEeSzs-C5IXKTbw" aggregation="shared" association="_211IEEevEeSGi8oYaOp2qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_210hAUevEeSGi8oYaOp2qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_210hAkevEeSGi8oYaOp2qg" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_pSOAMEWNEeSVTJKNg9WDtw" name="Requirement" isAbstract="true">
@@ -318,6 +320,12 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_F2Ep4UZMEeSM9YCiGGHKWg" name="glossaryEntry" type="_BOV98EWVEeSzs-C5IXKTbw" association="_F2Ep4EZMEeSM9YCiGGHKWg">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F2Ep4kZMEeSM9YCiGGHKWg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F2Ep40ZMEeSM9YCiGGHKWg" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_211IEEevEeSGi8oYaOp2qg" memberEnd="_211IEUevEeSGi8oYaOp2qg _210hAEevEeSGi8oYaOp2qg">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_211IEUevEeSGi8oYaOp2qg" name="informationFlow" type="_4OLeoEWMEeSVTJKNg9WDtw" association="_211IEEevEeSGi8oYaOp2qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_211IEkevEeSGi8oYaOp2qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_211IE0evEeSGi8oYaOp2qg" value="1"/>
         </ownedEnd>
       </packagedElement>
     </packagedElement>
