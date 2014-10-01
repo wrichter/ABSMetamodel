@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_axQ0AEWUEeSzs-C5IXKTbw/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_axQ0AEWUEeSzs-C5IXKTbw/3 model.profile.uml#_axRbEEWUEeSzs-C5IXKTbw">
-  <uml:Model xmi:id="_zHV9IEWLEeSVTJKNg9WDtw" name="ABS Simplified Metamodel">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_axQ0AEWUEeSzs-C5IXKTbw/3" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_axQ0AEWUEeSzs-C5IXKTbw/3 model.profile.uml#_axRbEEWUEeSzs-C5IXKTbw">
+  <uml:Model xmi:id="_zHV9IEWLEeSVTJKNg9WDtw" name="ABS Simplified Metamodel" viewpoint="">
     <packagedElement xmi:type="uml:Package" xmi:id="_RsHu0EYgEeSzs-C5IXKTbw" name="01 Requirements">
       <packagedElement xmi:type="uml:Class" xmi:id="_BOV98EWVEeSzs-C5IXKTbw" name="GlossaryEntry">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_F2DbwEZMEeSM9YCiGGHKWg" name="modelElement" type="_YJnvMEZLEeSM9YCiGGHKWg" association="_F2Ep4EZMEeSM9YCiGGHKWg">
@@ -349,7 +349,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uNkJwUWWEeSzs-C5IXKTbw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uNkJwkWWEeSzs-C5IXKTbw" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_H2Bm4EY1EeSGe-aPldTreA" name="applicationComponent" type="_LpiHQEWREeSzs-C5IXKTbw" association="_H2DcEEY1EeSGe-aPldTreA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_H2Bm4EY1EeSGe-aPldTreA" name="applicationComponent" type="_LpiHQEWREeSzs-C5IXKTbw" aggregation="shared" association="_H2DcEEY1EeSGe-aPldTreA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H2Bm4UY1EeSGe-aPldTreA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H2Bm4kY1EeSGe-aPldTreA" value="*"/>
         </ownedAttribute>
@@ -564,7 +564,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XzG5cUWXEeSzs-C5IXKTbw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XzG5ckWXEeSzs-C5IXKTbw" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_qNsnYEZFEeS7Q7GNO_YOAA" name="somethingWhichIsDeployed" type="_pnCc0EWREeSzs-C5IXKTbw" association="_qNsnY0ZFEeS7Q7GNO_YOAA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qNsnYEZFEeS7Q7GNO_YOAA" name="somethingWhichIsDeployed" type="_pnCc0EWREeSzs-C5IXKTbw" aggregation="shared" association="_qNsnY0ZFEeS7Q7GNO_YOAA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qNsnYUZFEeS7Q7GNO_YOAA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qNsnYkZFEeS7Q7GNO_YOAA" value="1"/>
         </ownedAttribute>
@@ -732,4 +732,5 @@
   <Profile:View xmi:id="_0yDLMEYqEeSzs-C5IXKTbw" base_Class="_nwCtcEYqEeSzs-C5IXKTbw"/>
   <Profile:View xmi:id="_JPgt4EYrEeSzs-C5IXKTbw" base_Class="_G_hoQEYrEeSzs-C5IXKTbw"/>
   <Profile:Connector xmi:id="__Z77oEZFEeS7Q7GNO_YOAA" base_Class="_xCorsEWREeSzs-C5IXKTbw"/>
+  <css:ModelStyleSheets xmi:id="_2We5EEmxEeSu06fA4ZsKGQ"/>
 </xmi:XMI>
